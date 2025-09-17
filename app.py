@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Nifty Stocks Analysis", layout="wide")
 
 # Load the dataset
-df = pd.read_csv("../DataSets/Nifty_Stocks.csv")
+df = pd.read_csv("Nifty_Stocks.csv")
 
 # Show title
 st.title("📊 Nifty Stocks Category-wise Price Range Visualization")
